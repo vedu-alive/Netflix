@@ -1,6 +1,5 @@
 import React from "react";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import vdo from "./vdo/vdo.mp4";
 import { useLocation, useNavigate } from "react-router-dom";
 import "../CSS/Player.css";
 import YouTube from "react-youtube";
