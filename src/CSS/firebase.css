@@ -1,0 +1,21 @@
+.custom{
+    padding-top: 10rem;
+    
+}
+
+.f{
+    align-items: center;
+    text-align: center;
+
+}
+
+.cancle{
+    margin-top: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    z-index: 1;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    cursor: pointer;
+}

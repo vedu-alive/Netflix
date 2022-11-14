@@ -1,0 +1,222 @@
+.signup {
+    position: relative;
+    background-size: cover;
+    height: 100%;
+    background: url("https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media/banner.jpg") center no-repeat;
+    color:#fff
+}
+
+.header_logo, .signup_btn{
+    position: absolute !important;
+}
+
+.hide{
+    display: hidden;
+}
+
+.fade-gradient{
+    width: 100%;
+    z-index: 1;
+    height: 550px;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5) 0, rgba( 0,0,0,0.0) 60%, rgba(0,0,0,0.5) 100%);
+}
+
+.signup_btn{
+    position: fixed;
+    top: 13px;
+    right: 20px;
+    padding: 0.5rem 1.2rem;
+    border-radius: 3px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header_logo{
+    height: 2.8rem;
+    width: 9rem;
+    position: fixed;
+    padding-left: 15px;
+    top: 10px;
+    left: 0;
+    cursor: pointer;
+}
+
+.signup_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1rem;
+    padding-top: 7rem;
+}
+
+.signup_description h2{
+    font-weight: 400;
+    margin: 0;
+}
+
+.signup_description p{
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+.signup_startedContainer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+   margin-top: 1rem;
+   width: 90%;
+}
+
+.signup_startedContainer input{
+    height: 2.5rem;
+    padding-left: 8px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+}
+
+.signup_startedContainer button{
+    cursor: pointer;
+    width: 30%;
+    padding: 0.5rem 0;
+    color: #fff;
+    background-color: #e50914;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1140px){
+    .signup{
+        height: 100vh;
+    }
+
+    .header_logo{
+        height: 3.8rem;
+        padding-top: 1.1rem;
+        padding-left: 2.8rem;
+        width: 12rem;
+    }
+    .signup_btn{
+        margin-top: 1rem;
+        margin-right: 2rem;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    .fade-gradient{
+        height: 100vh;
+    }
+    .signup_description{
+        padding-top: 12rem;
+    }
+
+    .signup_description h2{
+        font-size: 2rem;
+        padding-left: 0.5rem;
+    }
+
+    .signup_description h1{
+        font-size: 4rem;
+        max-width: 50%;
+        margin-bottom: 0;
+    }
+    .signup_description p{
+        font-size: 1.5rem;
+    }
+    .signup_startedContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 4.8rem;
+        width: 50%;
+        object-fit: contain;
+    }
+
+    .signup_startedContainer input{
+        height: 100%;
+        margin-bottom: 0;
+        font-size: 1.3rem;
+        border-radius: 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .signup_startedContainer button{
+        font-size: 2rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        height: 4.9rem;
+        margin-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 40%;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-left: 0.5px solid #111;
+    }
+}
+
+@media (max-width:1140px) and (min-width:750px ){
+    .signup{
+        height: 90vh;
+    }
+    .signup_description h2{
+        font-size: 1.7rem;
+    }
+    .signup_description h1{
+        max-width: 70%;
+        font-size: 3rem;
+    }
+    .signup_btn{
+        margin-top: 1rem;
+        margin-right: 2rem;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    .fade-gradient{
+        height: 90vh;
+    }
+    .signup_description p{
+        font-size: 1.2rem;
+    }
+    .signup_description{
+        padding-top: 11rem;
+    }
+    .signup_startedContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 3rem;
+        width: 70%;
+        object-fit: contain;
+    }
+    .signup_startedContainer input{
+        height: 100%;
+        margin-bottom: 0;
+        font-size: 1.3rem;
+        border-radius: 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .signup_startedContainer button{
+        font-size: 1rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        height: 3.21rem;
+        margin-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 40%;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-left: 0.5px solid #111;
+    }
+}
