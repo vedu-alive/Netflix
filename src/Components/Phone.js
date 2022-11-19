@@ -12,7 +12,7 @@ const generateCaptcha = () => {
     {
       size: "invisible",
       callback: (response) => {
-        // reCAPTCHA solved, allow signInWithPhoneNumber.
+        // reCAPTCHA solved; allow signInWithPhoneNumber;
         // console.log("captcha varified!");
       },
     },
