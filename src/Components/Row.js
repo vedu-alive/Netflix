@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Row.css";
 import axios from "../axios";
-import { useNavigate } from "react-router-dom";
 
 import Card from "./Card";
 
